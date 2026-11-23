@@ -24,6 +24,24 @@ Small shop owners and freelancers often track money across paper bills, WhatsApp
 - **Expense tracking**: log expenses by category (Food, Transport, Utilities, Supplies, Rent, Salary, Marketing, Other).
 - **Transaction ledger**: a single history of all income and expenses.
 
+## Screenshots
+
+| Dashboard | Invoices |
+|---|---|
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Invoices](docs/screenshots/invoices.png) |
+
+| Create invoice | Customer payment page |
+|---|---|
+| ![New invoice](docs/screenshots/invoice-new.png) | ![Payment page](docs/screenshots/payment-page.png) |
+
+| Receipt scanner | Expenses |
+|---|---|
+| ![Receipt scanner](docs/screenshots/receipt-scanner.png) | ![Expenses](docs/screenshots/expenses.png) |
+
+| Transactions | Login |
+|---|---|
+| ![Transactions](docs/screenshots/transactions.png) | ![Login](docs/screenshots/login.png) |
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -80,6 +98,7 @@ Open [http://localhost:3000](http://localhost:3000), register an account, and yo
 npm run build   # production build
 npm start       # run the production build
 npm run lint    # lint the code
+npm run screenshots   # regenerate README screenshots (see scripts/screenshots.ts)
 ```
 
 ## Project Structure
